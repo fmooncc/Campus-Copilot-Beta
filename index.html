@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Copilot — UCR (All-in-One)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root { --ucr-navy:#003DA5; --ucr-gold:#FFC72C; --ucr-gold-50:#FFF3CC; }
+      .text-indigo-600, .text-indigo-700{ color: var(--ucr-navy) !important; }
+      .bg-indigo-600, .hover\:bg-indigo-700:hover{ background-color: var(--ucr-navy) !important; }
+      .bg-indigo-50{ background-color: var(--ucr-gold-50) !important; color: var(--ucr-navy) !important; }
+      .ring-indigo-400, .focus\:ring-indigo-400:focus { --tw-ring-color: var(--ucr-navy) !important; }
+    </style>
+  </head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
